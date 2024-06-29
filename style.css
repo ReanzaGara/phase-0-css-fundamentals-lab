@@ -1,5 +1,85 @@
+header {
+  padding: 20;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-size:32px;
+  margin: 0;
+  transform: translateX(150%);
+}
+
+nav {
+  text-align: center;
+  white-space: nowrap;
+  transform: translateX(140%);
+}
+
+nav a {
+  display: inline-block;
+  background-color: grey;
+  padding: 5px;
+  margin: 3px;
+  border-radius: 5px;
+}
+
+#featured-property {
+  border: 1 solid #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#featured-property img {
+  border: 1px solid #333;
+  width: 800px;
+  height: auto;
+  margin-bottom: 10px;
+  transform: translateX(85%);
+}
+
+#featured-property p {
+  width: 800px;
+  margin: 10px auto;
+  text-align: center;
+  transform: translateX(65%);
+}
+
+#details h3 {
+  font-size: 24px;
+  color: blue;
+}
+
+#details a {
+  color: blue;
+  text-decoration: none;
+}
+
+#details a:hover {
+  text-decoration: underline;
+}
+
+figcaption {
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  transform: translateX(85%);
+}
+
+#details {
+  display: flex;
+  transform: translateX(50%);
+  gap: 300px;
+}
+#details div {
+  float: left;
+  background-color: red;
+}
+
 body {
-  width: 100%;
+  width: 25%;
   height: 100%;
   margin: 0;
 }
